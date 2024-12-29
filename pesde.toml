@@ -1,0 +1,16 @@
+name = "4x8matrix/opengl"
+version = "0.1.0"
+license = "MIT"
+repository = "https://github.com/4x8Matrix/Luau-OpenGL"
+authors = ["Jack<https://github.com/4x8Matrix>",]
+description = "OpenGL bindings for the Luau language"
+pesde_version = "0.5.2"
+
+includes = ["src/**", "pesde.toml", "LICENSE"]
+
+[target]
+environment = "lune"
+lib = "src/init.luau"
+
+[indices]
+default = "https://github.com/daimond113/pesde-index"

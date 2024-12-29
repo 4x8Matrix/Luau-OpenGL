@@ -1,0 +1,3 @@
+local OpenGL = {}
+
+return OpenGL
